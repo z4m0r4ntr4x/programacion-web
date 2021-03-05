@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #E0E0E2;
+}
+
+.contenedor{
+    display: flex;
+}
+
+ul {
+    padding: 5px 10px;
+    border: 1px solid salmon;
+    margin: 5px;
+
+}
+
+aside{
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    background-color: #446DF6;
+    color: rgba(221, 216, 212, 0.719);
+    padding: 10px;
+}
+
+#Principal{
+    margin-left: 300px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    margin-bottom: 20px;
+}
+
+.menu li a{
+    color: #030100fb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+section{
+    margin: 20px 0px;
+}
+
+#Inicio{
+    margin-top: 0px;
+}
+
+.social{
+    list-style: none;
+}
+
+.social li{
+    margin-bottom: 10px;
+}
+
+.social li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*  font-family: 'Bebas Neue', cursive; /*
