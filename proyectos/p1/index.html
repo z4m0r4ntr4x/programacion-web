@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="sytile.css">
+
+</head>
+<body>
+    <div class="container">
+
+    <h1>Ejemplo de javascript</h1>
+    <p id="texto">    </p>
+
+    <form action="">
+        <div class="form-group">
+        <label for="numero1">Numero 1</label>
+        <input type="text" id="numero1" name="numero1">
+        </div>
+
+        <div class="form-group"> 
+        <label for="numero2">Numero 2</label>
+        <input type="text" id="numero2" name="numero2">
+        </div>
+
+        <button clase="btn"  id="btn-enviar">Aceptar</button>
+
+  
+
+
+    </form>
+
+</div>
+
+    <script  type="text/javascript">
+    
+    const p = document.getElementById('texto');
+    p.innerHTML = 'sumar 2 numeros';
+
+    const btn = document.getElementById('btn-enviar');
+    btn.addEventListener("cliclk", (e) => {
+        e.preventDefault();
+        const numero1 = document.getElementById("numero1");
+        const numero2 = document.getElementById("numero2");
+        var resultado = parseInt(numero1.value) + parseInt(numero2.value);
+
+        const res = document
+
+    } );
+
+
+
+
+    
+    </script>
+
+
+    
+
+
+
+</body>
+</html>

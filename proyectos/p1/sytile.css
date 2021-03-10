@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    padding: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+label{
+    width: 150px;
+    height: 25px;
+}
+
+.btn{
+    padding: 5px 10px;
+    text-transform:  uppercase;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10%;
+}
