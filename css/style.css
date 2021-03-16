@@ -12,12 +12,15 @@ body{
     display: flex;
 }
 
-ul {
-    padding: 5px 10px;
-    border: 1px solid salmon;
-    margin: 5px;
+
+
+
 
 }
+label{
+    width: 150px;
+}
+
 
 aside{
     position: fixed;
@@ -67,6 +70,14 @@ section{
 .social li a{
     text-decoration: none;
     color: black;
+}
+
+#Educacion{
+    background-color: rgb(163, 163, 228);
+}
+
+#Proyectos{
+    background-color: rgb(163, 163, 228);
 }
 
 /*  font-family: 'Bebas Neue', cursive; /*

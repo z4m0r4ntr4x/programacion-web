@@ -21,6 +21,12 @@ label{
     height: 25px;
 }
 
+input{
+    width: 150px;
+    height: 25px;
+    
+}
+
 .btn{
     padding: 5px 10px;
     text-transform:  uppercase;

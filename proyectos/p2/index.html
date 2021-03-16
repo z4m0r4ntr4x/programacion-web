@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+        <title>Proyecto uno</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <div class="container">
+        <h1>Calculadora Basica</h1>
+        <p id="texto"></p>
+  
+        <form action="">
+            <div class="from-grup">
+                <label for="numero1">Numero 1</label>
+                <input type="text" id="numero1" name="numero1" autocomplete="off"/>
+            </div>
+            <p> </p>
+            <div class="from-grup">
+                <label for="numero2">Numero 2</label>
+                <input type="text" id="numero2" name="numero2" autocomplete="off"/>
+            </div>
+            <div class="from-grup">
+                <label for="operacion">Operacion</label>
+                <select name="operacion" id="operacion"> 
+                    <option value="1">Suma</option>
+                    <option value="2">Resta</option>
+                    <option value="3">Multiplicacion</option>
+                    <option value="4">Division</option>
+                </select>
+            </div>
+            <button class="btn" id="btn-enviar">Aceptar</button>
+        </form>
+        <span>Resultado =  </span>
+        <span id="resultado"></span> 
+    </div>
+       
+        <script src="main.js"></script>
+   
+</html>
