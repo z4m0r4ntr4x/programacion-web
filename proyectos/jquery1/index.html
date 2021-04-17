@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Jquery1</h1>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css"/>
+        <title>JQuery</title>
+    </head>
+    <body>
+        <h7>Jquery 1</h7>
 
-    <script src="js/jquery-3.6.0.min"></script>
-    <script src="/js/ma"></script>
+        <input type="text" name="nombre" id="nombre"/>
+        <button id="btn1">Saludos</button>
+        <h2 id="mensaje">-----</h2>
+        <button id="btn2">mensaje</button>
 
-</body>
+
+        <h1>Validacion de formunario</h1>
+        <form action="" id="form1" method="GET">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+            <label for="edad">Edad</label>
+            <input type="text" id="edad" name="edad" />
+            <input type="submit" value="Enviar"/>
+        </form>
+        <script src="js/jquery.js"></script>
+        <script src="js/validacion/jquery.validate.min.js"></script>
+        <script src="js/validacion/localization/messages_es.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
